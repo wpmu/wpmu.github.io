@@ -23,19 +23,26 @@ header {
 }
 
 /*---------- Hero ----------*/
-#hero {
+#hero,
+#header {
     background-color: #1abc9c;
     padding-top: 50px;
     padding-bottom: 200px;
     color: #fff;
 }
-#hero .intro {
+#header {
+    padding-bottom: 50px;
+}
+#hero .intro,
+#header-intro {
     padding: 0px 10px 0px 0px;
 }
-#hero .logo {
+#hero .logo,
+#header-logo {
     margin-bottom: 100px;
 }
-#hero .lead {
+#hero .lead,
+#header .lead {
     color: #e8f8f5;
     margin-top: 30px;
 }
@@ -471,7 +478,8 @@ hr.separator-alt {
     }
 }
 @media (min-width: 768px) and (max-width: 980px) {
-    #hero img {
+    #hero img,
+    #header img {
         margin-top: 200px;
     }
     #features .iphone-1 {
@@ -489,17 +497,17 @@ hr.separator-alt {
     }
 }
 @media (min-width: 320px) and (max-width: 360px) {
-    #hero {
+    #hero, #header {
         padding-top: 20px;
         padding-bottom: 50px;
     }
-    #hero .logo {
+    #hero .logo, #header .logo {
         margin-bottom: 50px;
     }
-    #hero h1, h1, .h1 {
+    #hero h1, h1, .h1, #header h1 {
         font-size: 32px;
     }
-    #hero img {
+    #hero img, #header img {
         margin-top: 80px;
     }
     #features, #image, #about, #video, #testimonials, #purchase, #gallery, #social, #subscribe {
@@ -540,7 +548,7 @@ hr.separator-alt {
     }
 }
 @media (width: 1024px) {
-    #hero img {
+    #hero img, #header img {
         margin-top: 100px;
     }
     #owl-demo .item img {
@@ -564,16 +572,16 @@ hr.separator-alt {
     }
 }
 @media (min-width: 600px) and (max-width: 640px) {
-    #hero {
+    #hero, #header {
         padding-top: 20px;
     }
-    #hero h1 {
+    #hero h1, #header h1 {
         font-size: 42px;
     }
-    #hero .lead {
+    #hero .lead, #header .lead {
         font-size: 28px;
     }
-    #hero .buttons {
+    #hero .buttons, #header .buttons {
         margin-bottom: 50px;
     }
     #features img {
@@ -602,4 +610,9 @@ hr.separator-alt {
     #gallery #owl-demo .item {
         padding-left: 15px;
     }
+}
+#content {
+    font-size: 20px;
+    padding-top:100px;
+    padding-bottom: 100px;
 }

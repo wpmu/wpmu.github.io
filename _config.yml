@@ -1,0 +1,4 @@
+name: wpmu.io
+markdown: redcarpet
+pygments: true
+permalink: pretty
