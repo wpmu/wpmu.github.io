@@ -12,7 +12,8 @@ body {
     color: #444;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .lead {
-    font-weight: 300;
+    font-family: 'Rokkitt', serif;
+    font-weight: 400;
 }
 
 /*---------- Header ----------*/
@@ -25,10 +26,10 @@ header {
 /*---------- Hero ----------*/
 #hero,
 #header {
-    background-color: #1abc9c;
+    background-color: #F1C40F;
+    letter-spacing: 1px;
     padding-top: 50px;
     padding-bottom: 200px;
-    color: #fff;
 }
 #header {
     padding-bottom: 50px;
@@ -43,33 +44,41 @@ header {
 }
 #hero .lead,
 #header .lead {
-    color: #e8f8f5;
+    color: #555;
     margin-top: 30px;
 }
 
-/*---------- Features ----------*/
-#features {
+/*---------- Shoestrap ----------*/
+#shoestrap {
     padding-top: 100px;
     padding-bottom: 150px;
 }
-
-#features .item {
+#shoestrap a {
+    color: #068aad;
+}
+#shoestrap .btn {
+    color: #fff;
+}
+#shoestrap .item {
     text-align: center;
     padding: 25px 0px;
 }
-#features .item-icon {
+#shoestrap .item-icon {
     border-radius: 50%;
-    border: 2px solid #555;
+    border: 2px solid #068aad;
     width: 50px;
     height: 50px;
     padding-top: 12px;
     margin: 0 auto;
+    color: #068aad;
 }
-
-/*---------- Image ----------*/
-#image {
-    background-color: #8cddcd;
-    color: #444;
+#shoestrap .iphone-1 {
+    margin-top: 60px;
+}
+/*---------- Kirki ----------*/
+#kirki {
+    background-color: #1ABC9C;
+    color: #eee;
     padding-top: 100px;
     padding-bottom: 0px;
 }
@@ -119,14 +128,15 @@ header {
 }
 
 /*---------- Purchase ----------*/
-#purchase {
-    background-color: #2c3e50;
-    color: #fff;
+#contact {
+    background-color: #F1C40F;
+    color: #444;
     padding-top: 50px;
     padding-bottom: 100px;
     text-align: center;
+    font-size: 16px;
 }
-#purchase h1 {
+#contact h1 {
     margin-bottom: 30px;
 }
 /*---------- Gallery ----------*/
@@ -208,8 +218,8 @@ header {
 
 /*---------- Footer ----------*/
 footer {
-    background-color: #1abc9c;
-    color: #fff;
+    background-color: #F1C40F;
+    color: #444;
     margin: 0;
     padding: 0;
 }
@@ -232,7 +242,7 @@ footer .footer-links > li > a {
     white-space: nowrap;
 }
 .btn-1 {
-    background-color: #16a085;
+    background-color: #E74C3C;
     border: none;
     color: #fff;
     font-size: 16px;
@@ -244,7 +254,7 @@ footer .footer-links > li > a {
 }
 .btn-1:hover,
 .btn-1:focus {
-    background-color: #139077;
+    background-color: #C74134;
     border: none;
     color: #fff;
     outline: none;
@@ -264,10 +274,10 @@ footer .footer-links > li > a {
 .btn-2:focus {
     background-color: rgb(0,0,0,0);
     border: 2px solid #fff;
-    color: #1abc9c;
+    color: #F1C40F;
 }
 .btn-3 {
-    background-color: #e74c3c;
+    background-color: #F1C40F;
     border: none;
     color: #fff;
     font-size: 16px;
@@ -279,12 +289,12 @@ footer .footer-links > li > a {
 }
 .btn-3:hover,
 .btn-3:focus {
-    background-color: #cf4436;
+    background-color: #DEB40E;
     border: none;
     color: #fff;
 }
 .btn-4 {
-    background-color: #34495e;
+    background-color: #2C3E50;
     border: none;
     color: #fff;
     font-size: 16px;
@@ -296,7 +306,7 @@ footer .footer-links > li > a {
 }
 .btn-4:hover,
 .btn-4:focus {
-    background-color: #2c3e50;
+    background-color: #1F2B38;
     border: none;
     color: #fff;
 }
@@ -402,7 +412,7 @@ hr.separator-alt {
     margin-right: -250px;
     right: 0;
     width: 250px;
-    background: #16a085;
+    background: #2C3E50;
     position: fixed;
     height: 100%;
     overflow-y: auto;
@@ -431,7 +441,7 @@ hr.separator-alt {
     text-decoration: none;
 }
 .sidebar-nav li a:hover {
-    color: #444;
+    color: #F1C40F;
     background: rgba(255,255,255,0.2);
     text-decoration: none;
 }
@@ -467,13 +477,13 @@ hr.separator-alt {
     transition: all 0.4s ease 0s;
 }
 .toggle {
-    color: #0d5e4e;
+    color: #2d2d2d;
     margin: 5px 5px 0px 0px;
 }
 
 /*---------- Media queries ----------*/
 @media (width: 1024px) {
-    #features .iphone-1 {
+    #shoestrap .iphone-1 {
         margin-top: 45px;
     }
 }
@@ -482,7 +492,7 @@ hr.separator-alt {
     #header img {
         margin-top: 200px;
     }
-    #features .iphone-1 {
+    #shoestrap .iphone-1 {
         margin-top: 175px;
     }
     .btn-wide {
@@ -510,7 +520,7 @@ hr.separator-alt {
     #hero img, #header img {
         margin-top: 80px;
     }
-    #features, #image, #about, #video, #testimonials, #purchase, #gallery, #social, #subscribe {
+    #shoestrap, #kirki, #about, #contact {
         padding-top: 50px;
         padding-bottom: 50px;
     }
