@@ -226,6 +226,9 @@ footer {
 footer .footer-links > li > a {
     color: #fff;
 }
+footer .footer-note {
+    margin-top: 10px;
+}
 
 /*---------- Buttons ----------*/
 .btn {

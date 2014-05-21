@@ -63,7 +63,7 @@ Since we started building this theme from scratch, we are not building this with
 
 The update process will be smooth and until we finish writing this new version, no new features will be implemented on the current version, only bugfixes.
 
-We would like to call you to contribute your opinions or even your own code to our new github repository on https://github.com/wpmu/shoestrap
+We would like to call you to contribute your opinions or even your own code to our new github repository on [https://github.com/wpmu/shoestrap](https://github.com/wpmu/shoestrap).
 
 Feel free to download or fork this and play with it!
 

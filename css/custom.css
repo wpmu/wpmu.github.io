@@ -8,3 +8,18 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 	color: #55acee;
 	font-size: 32px;
 }
+#contact a {
+	color: #444;
+}
+/*---------- Blog ----------*/
+#blog {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #E74C3C;
+}
+#blog h1 {
+	margin-bottom: 20px;
+}
+#blog .media-body {
+	font-size: 15px;
+}
