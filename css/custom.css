@@ -1,12 +1,6 @@
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
 	color: #777;
 }
-a {
-	color: #2C3E50;
-}
-a:hover, a:focus {
-	color: #1F2B38;
-}
 .ss-down {
 	margin-top: 50px;
 }
