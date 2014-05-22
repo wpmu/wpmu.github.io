@@ -20,7 +20,7 @@ With this in mind, we decided to completely re-build the theme.
 
 Those of you that have been using Shoestrap since the beginning might remember that up until version 2.0 (now in the [legacy branch](https://github.com/shoestrap/shoestrap-3/tree/legacy) of our gihub repository) we were using the WordPress Customizer and had no admin panel.
 We then jumped to version 3.0 that included Bootstrap 3.0 and instead of using the Customizer switched to the amazing [Redux Framework](http://reduxframework.com/).
-As a matter of fact, [@dovy](https://twitter.com/SimpleRain), one of our lead developers for Shoestrap 3.0 experimented with all other frameworks available and decided Redux was worth investing on. He is now a fulltime developer on developer there (as seen on the [redux repository statistics](https://github.com/ReduxFramework/redux-framework/graphs/contributors)) and we couldn't have been more grateful for what he has done.
+As a matter of fact, [@dovy](https://twitter.com/SimpleRain), one of our lead developers for Shoestrap 3.0 experimented with all other frameworks available and decided Redux was worth investing on. He is now a fulltime developer there (as seen on the [redux repository statistics](https://github.com/ReduxFramework/redux-framework/graphs/contributors)) and we couldn't have been more grateful for what he has done.
 
 **Redux is a beast**. It's a massive, amazing beast. One we don't use to its full extent because quite simply we don't need to.
 So we took a step back and started re-thinking everything.
